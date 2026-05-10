@@ -9,7 +9,6 @@ from langchain_community.embeddings import DashScopeEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from datetime import datetime
 
-
 def check_md5(md5_str: str):
     """检查传入的md5字符串是否已经被处理过了
         return False(md5未处理过)  True(已经处理过，已有记录）
